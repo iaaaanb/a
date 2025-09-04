@@ -1,0 +1,36 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/ian-berdichewsky/memes/tareas/tarea-1/target/scala-3.3.5/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/ian-berdichewsky/memes/tareas/tarea-1/target/scala-3.3.5/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UnitType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UnitCard.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Card.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UnitType$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MeleeUnitCard.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RangedUnitCard.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClearWeatherCard.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FogWeatherCard.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Player.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WeatherCard.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SiegeUnitCard.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UnitType$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FrostWeatherCard.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RainWeatherCard.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UnitType.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UnitCard.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Card.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UnitType$$anon$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MeleeUnitCard.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RangedUnitCard.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClearWeatherCard.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FogWeatherCard.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Player.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WeatherCard.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SiegeUnitCard.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UnitType$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FrostWeatherCard.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RainWeatherCard.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/ian-berdichewsky/memes/tareas/tarea-1/target/scala-3.3.5/classes.bak[0m
