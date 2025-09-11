@@ -1,0 +1,222 @@
+[0m[[0m[31merror[0m] [0m[0merror while loading RangedUnitCard,[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ian-berdichewsky/memes/tareas/a/target/scala-3.3.5/classes/model/cards/RangedUnitCard.class[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/PlayerTest.scala:173:25 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m173 |[0m    [33mval[0m [36mrangedCard[0m = [33mnew[0m [35mRangedUnitCard[0m([31m"Ranged"[0m, [31m4[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                         ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                         Not found: type RangedUnitCard[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading SiegeUnitCard,[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ian-berdichewsky/memes/tareas/a/target/scala-3.3.5/classes/model/cards/SiegeUnitCard.class[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/PlayerTest.scala:174:24 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m174 |[0m    [33mval[0m [36msiegeCard[0m = [33mnew[0m [35mSiegeUnitCard[0m([31m"Siege"[0m, [31m6[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                        ^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                        Not found: type SiegeUnitCard[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading FrostWeatherCard,[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ian-berdichewsky/memes/tareas/a/target/scala-3.3.5/classes/model/cards/FrostWeatherCard.class[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/PlayerTest.scala:175:26 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m175 |[0m    [33mval[0m [36mweatherCard[0m = [33mnew[0m [35mFrostWeatherCard[0m([31m"Frost"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                          ^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                          Not found: type FrostWeatherCard[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading FogWeatherCard,[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ian-berdichewsky/memes/tareas/a/target/scala-3.3.5/classes/model/cards/FogWeatherCard.class[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/PlayerTest.scala:186:26 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m186 |[0m    [33mval[0m [36mweatherCard[0m = [33mnew[0m [35mFogWeatherCard[0m([31m"Fog"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                          ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                          Not found: type FogWeatherCard[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:7:18 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m7 |[0m  [33mvar[0m [36mrangedCard[0m: [35mRangedUnitCard[0m = _[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                  ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                  Not found: type RangedUnitCard[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:8:17 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m  [33mvar[0m [36msiegeCard[0m: [35mSiegeUnitCard[0m = _[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                 ^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                 Not found: type SiegeUnitCard[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:9:17 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m9 |[0m  [33mvar[0m [36mfrostCard[0m: [35mFrostWeatherCard[0m = _[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                 ^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                 Not found: type FrostWeatherCard[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:10:15 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m10 |[0m  [33mvar[0m [36mfogCard[0m: [35mFogWeatherCard[0m = _[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m               ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m               Not found: type FogWeatherCard[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading RainWeatherCard,[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ian-berdichewsky/memes/tareas/a/target/scala-3.3.5/classes/model/cards/RainWeatherCard.class[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:11:16 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m11 |[0m  [33mvar[0m [36mrainCard[0m: [35mRainWeatherCard[0m = _[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                ^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                Not found: type RainWeatherCard[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading ClearWeatherCard,[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ian-berdichewsky/memes/tareas/a/target/scala-3.3.5/classes/model/cards/ClearWeatherCard.class[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:12:17 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m12 |[0m  [33mvar[0m [36mclearCard[0m: [35mClearWeatherCard[0m = _[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                 ^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                 Not found: type ClearWeatherCard[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:16:21 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m16 |[0m    rangedCard = [33mnew[0m [35mRangedUnitCard[0m([31m"Archer"[0m, [31m6[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                     ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                     Not found: type RangedUnitCard[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:17:20 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m17 |[0m    siegeCard = [33mnew[0m [35mSiegeUnitCard[0m([31m"Catapult"[0m, [31m10[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                    ^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                    Not found: type SiegeUnitCard[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:18:20 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m18 |[0m    frostCard = [33mnew[0m [35mFrostWeatherCard[0m([31m"Biting Frost"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                    ^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                    Not found: type FrostWeatherCard[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:19:18 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m19 |[0m    fogCard = [33mnew[0m [35mFogWeatherCard[0m([31m"Impenetrable Fog"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                  ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                  Not found: type FogWeatherCard[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:20:19 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m20 |[0m    rainCard = [33mnew[0m [35mRainWeatherCard[0m([31m"Torrential Rain"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                   ^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                   Not found: type RainWeatherCard[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:21:20 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m21 |[0m    clearCard = [33mnew[0m [35mClearWeatherCard[0m([31m"Clear Weather"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                    ^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                    Not found: type ClearWeatherCard[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:27:46 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m27 |[0m    assertEquals(meleeCard.unitType, UnitType.Melee)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                     ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mvalue Melee is not a member of object model.cards.UnitType, but could be made available as an extension method.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mThe following import might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  import munit.Clue.generate[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading UnitType,[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ian-berdichewsky/memes/tareas/a/target/scala-3.3.5/classes/model/cards/UnitType.class[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:34:47 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m34 |[0m    assertEquals(rangedCard.unitType, UnitType.Ranged)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                      ^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mvalue Ranged is not a member of object model.cards.UnitType, but could be made available as an extension method.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mThe following import might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  import munit.Clue.generate[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:41:46 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m41 |[0m    assertEquals(siegeCard.unitType, UnitType.Siege)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                     ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mvalue Siege is not a member of object model.cards.UnitType, but could be made available as an extension method.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mThe following import might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  import munit.Clue.generate[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E171] Type Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:71:16 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m71 |[0m    assertEquals(rangedCard.classification != siegeCard.classification, [31mtrue[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mmissing argument for parameter clue of [33mmethod[0m [35massertEquals[0m in [33mtrait[0m [35mAssertions[0m: (obtained: A, expected: B, clue: => Any)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  ([33mimplicit [0mloc: munit.Location, compare: munit.Compare[A, B], diffOptions:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    munit.diff.DiffOptions): Unit[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:83:26 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m83 |[0m    assertEquals(UnitType.Melee.toString, [31m"Melee"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                 ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mvalue Melee is not a member of object model.cards.UnitType, but could be made available as an extension method.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mThe following import might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  import munit.Clue.generate[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:84:26 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m84 |[0m    assertEquals(UnitType.Ranged.toString, [31m"Ranged"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                 ^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mvalue Ranged is not a member of object model.cards.UnitType, but could be made available as an extension method.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mThe following import might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  import munit.Clue.generate[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:85:26 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m85 |[0m    assertEquals(UnitType.Siege.toString, [31m"Siege"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                 ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mvalue Siege is not a member of object model.cards.UnitType, but could be made available as an extension method.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mThe following import might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  import munit.Clue.generate[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:89:53 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m89 |[0m    assertEquals(meleeCard.classification, meleeCard.unitType.toString)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                           ^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mFound:    (model.cards.MeleeUnitCard#unitType : model.cards.UnitType)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mRequired: ?{ toString: ? }[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mNote that implicit extension methods cannot be applied because they are ambiguous;[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mboth [33mmethod[0m [35mArrowAssoc[0m in [33mobject[0m [35mPredef[0m and [33mmethod[0m [35mEnsuring[0m in [33mobject[0m [35mPredef[0m provide an extension method `toString` on (model.cards.MeleeUnitCard#unitType : model.cards.UnitType)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:100:27 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m100 |[0m    [33mval[0m [36mnegativeCard[0m = [33mnew[0m [35mRangedUnitCard[0m([31m"Negative Unit"[0m, -[31m5[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                           ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                           Not found: type RangedUnitCard[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E171] Type Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:105:16 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m105 |[0m    assertEquals(frostCard.weatherType != fogCard.weatherType, [31mtrue[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mmissing argument for parameter clue of [33mmethod[0m [35massertEquals[0m in [33mtrait[0m [35mAssertions[0m: (obtained: A, expected: B, clue: => Any)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m  ([33mimplicit [0mloc: munit.Location, compare: munit.Compare[A, B], diffOptions:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    munit.diff.DiffOptions): Unit[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E171] Type Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:106:16 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m106 |[0m    assertEquals(fogCard.weatherType != rainCard.weatherType, [31mtrue[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mmissing argument for parameter clue of [33mmethod[0m [35massertEquals[0m in [33mtrait[0m [35mAssertions[0m: (obtained: A, expected: B, clue: => Any)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m  ([33mimplicit [0mloc: munit.Location, compare: munit.Compare[A, B], diffOptions:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    munit.diff.DiffOptions): Unit[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E171] Type Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:107:16 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m107 |[0m    assertEquals(rainCard.weatherType != clearCard.weatherType, [31mtrue[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mmissing argument for parameter clue of [33mmethod[0m [35massertEquals[0m in [33mtrait[0m [35mAssertions[0m: (obtained: A, expected: B, clue: => Any)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m  ([33mimplicit [0mloc: munit.Location, compare: munit.Compare[A, B], diffOptions:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    munit.diff.DiffOptions): Unit[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:118:21 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m118 |[0m    [33mval[0m [36mfrost2[0m = [33mnew[0m [35mFrostWeatherCard[0m([31m"Weather Effect"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                     ^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                     Not found: type FrostWeatherCard[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:119:19 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m119 |[0m    [33mval[0m [36mfog2[0m = [33mnew[0m [35mFogWeatherCard[0m([31m"Weather Effect"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                   ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                   Not found: type FogWeatherCard[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E171] Type Error: /home/ian-berdichewsky/memes/tareas/a/src/test/scala/model/cards/CardTest.scala:121:16 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m121 |[0m    assertEquals(frost2.weatherType != fog2.weatherType, [31mtrue[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mmissing argument for parameter clue of [33mmethod[0m [35massertEquals[0m in [33mtrait[0m [35mAssertions[0m: (obtained: A, expected: B, clue: => Any)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m  ([33mimplicit [0mloc: munit.Location, compare: munit.Compare[A, B], diffOptions:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    munit.diff.DiffOptions): Unit[0m
+[0m[[0m[31merror[0m] [0m[0m38 errors found[0m

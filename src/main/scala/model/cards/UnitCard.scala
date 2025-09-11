@@ -1,5 +1,7 @@
 package model.cards
 
+import model.cards.UnitCardEffect
+
 /**
  * Trait for unit cards that can be placed on the battlefield.
  *
@@ -26,6 +28,12 @@ trait UnitCard extends Card {
    * @return The unit type
    */
   def unitType : UnitType
+
+  /**
+   * Optional
+   * @return The unit effect or None.
+   */
+  def effect : Option[UnitCardEffect] = None
 
   /**
    * The classification of the unit card.
