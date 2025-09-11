@@ -1,20 +1,19 @@
 package model
 
 import munit.FunSuite
-import model.cards.Card
-
+import model.cards.{MeleeUnitCard, RangedUnitCard, SiegeUnitCard, FrostWeatherCard, FogWeatherCard}
 
 class PlayerTest extends FunSuite {
   var player: Player = _
-  var testCard1: TestMeleeCard = _
-  var testCard2: TestMeleeCard = _
-  var testCard3: TestMeleeCard = _
+  var testCard1: MeleeUnitCard = _
+  var testCard2: MeleeUnitCard = _
+  var testCard3: MeleeUnitCard = _
 
   override def beforeEach(context: BeforeEach): Unit = {
     player = new Player("TestPlayer", "North")
-    testCard1 = new TestMeleeCard("Card 1", 5)
-    testCard2 = new TestMeleeCard("Card 2", 7)
-    testCard3 = new TestMeleeCard("Card 3", 3)
+    testCard1 = new MeleeUnitCard("Card 1", 5)
+    testCard2 = new MeleeUnitCard("Card 2", 7)
+    testCard3 = new MeleeUnitCard("Card 3", 3)
   }
 
   test("Player should be created with correct name") {
@@ -127,7 +126,7 @@ class PlayerTest extends FunSuite {
   test("Player should have maximum 10 cards in hand") {
     // Add 11 cards to deck
     for (i <- 1 to 11) {
-      val card = new TestMeleeCard(s"Card $i", i)
+      val card = new MeleeUnitCard(s"Card $i", i)
       player.addCardToDeck(card)
     }
 
@@ -168,9 +167,28 @@ class PlayerTest extends FunSuite {
     val result = player.getCardFromDeck(0)
     assertEquals(result.isDefined, false)
   }
-}
 
-// Test helper class
-class TestMeleeCard(val name: String, val strength: Int) extends model.cards.UnitCard {
-  val unitType: model.cards.UnitType = model.cards.UnitType.Melee
+  test("Player can have different types of cards in deck") {
+    val meleeCard = new MeleeUnitCard("Melee", 5)
+    val rangedCard = new RangedUnitCard("Ranged", 4)
+    val siegeCard = new SiegeUnitCard("Siege", 6)
+    val weatherCard = new FrostWeatherCard("Frost")
+
+    player.addCardToDeck(meleeCard)
+    player.addCardToDeck(rangedCard)
+    player.addCardToDeck(siegeCard)
+    player.addCardToDeck(weatherCard)
+
+    assertEquals(player.deckSize, 4)
+  }
+
+  test("Player can draw and play weather cards") {
+    val weatherCard = new FogWeatherCard("Fog")
+    player.addCardToDeck(weatherCard)
+    player.drawCard()
+
+    assertEquals(player.hasCardInHand(weatherCard), true)
+    assertEquals(player.playCard(weatherCard), true)
+    assertEquals(player.handSize, 0)
+  }
 }

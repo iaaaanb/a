@@ -3,18 +3,22 @@ package model.cards
 import munit.FunSuite
 
 class CardTest extends FunSuite {
-  var meleeCard: TestMeleeCard = _
-  var rangedCard: TestRangedCard = _
-  var siegeCard: TestSiegeCard = _
-  var frostCard: TestWeatherCard = _
-  var fogCard: TestWeatherCard = _
+  var meleeCard: MeleeUnitCard = _
+  var rangedCard: RangedUnitCard = _
+  var siegeCard: SiegeUnitCard = _
+  var frostCard: FrostWeatherCard = _
+  var fogCard: FogWeatherCard = _
+  var rainCard: RainWeatherCard = _
+  var clearCard: ClearWeatherCard = _
 
   override def beforeEach(context: BeforeEach): Unit = {
-    meleeCard = new TestMeleeCard("Warrior", 8)
-    rangedCard = new TestRangedCard("Archer", 6)
-    siegeCard = new TestSiegeCard("Catapult", 10)
-    frostCard = new TestWeatherCard("Biting Frost", "frost")
-    fogCard = new TestWeatherCard("Impenetrable Fog", "fog")
+    meleeCard = new MeleeUnitCard("Warrior", 8)
+    rangedCard = new RangedUnitCard("Archer", 6)
+    siegeCard = new SiegeUnitCard("Catapult", 10)
+    frostCard = new FrostWeatherCard("Biting Frost")
+    fogCard = new FogWeatherCard("Impenetrable Fog")
+    rainCard = new RainWeatherCard("Torrential Rain")
+    clearCard = new ClearWeatherCard("Clear Weather")
   }
 
   test("MeleeUnitCard should have correct properties") {
@@ -38,10 +42,28 @@ class CardTest extends FunSuite {
     assertEquals(siegeCard.classification, "Siege")
   }
 
-  test("WeatherCard should have correct properties") {
+  test("FrostWeatherCard should have correct properties") {
     assertEquals(frostCard.name, "Biting Frost")
     assertEquals(frostCard.weatherType, "frost")
     assertEquals(frostCard.classification, "Weather")
+  }
+
+  test("FogWeatherCard should have correct properties") {
+    assertEquals(fogCard.name, "Impenetrable Fog")
+    assertEquals(fogCard.weatherType, "fog")
+    assertEquals(fogCard.classification, "Weather")
+  }
+
+  test("RainWeatherCard should have correct properties") {
+    assertEquals(rainCard.name, "Torrential Rain")
+    assertEquals(rainCard.weatherType, "rain")
+    assertEquals(rainCard.classification, "Weather")
+  }
+
+  test("ClearWeatherCard should have correct properties") {
+    assertEquals(clearCard.name, "Clear Weather")
+    assertEquals(clearCard.weatherType, "clear")
+    assertEquals(clearCard.classification, "Weather")
   }
 
   test("Different unit types have different classifications") {
@@ -53,6 +75,8 @@ class CardTest extends FunSuite {
   test("All weather cards have Weather classification") {
     assertEquals(frostCard.classification, "Weather")
     assertEquals(fogCard.classification, "Weather")
+    assertEquals(rainCard.classification, "Weather")
+    assertEquals(clearCard.classification, "Weather")
   }
 
   test("UnitType enum has correct string values") {
@@ -68,22 +92,32 @@ class CardTest extends FunSuite {
   }
 
   test("Unit cards can have zero strength") {
-    val weakCard = new TestMeleeCard("Weak Unit", 0)
+    val weakCard = new MeleeUnitCard("Weak Unit", 0)
     assertEquals(weakCard.strength, 0)
   }
-}
 
-// Test helper classes
-class TestMeleeCard(val name: String, val strength: Int) extends UnitCard {
-  val unitType: UnitType = UnitType.Melee
-}
+  test("Unit cards can have negative strength") {
+    val negativeCard = new RangedUnitCard("Negative Unit", -5)
+    assertEquals(negativeCard.strength, -5)
+  }
 
-class TestRangedCard(val name: String, val strength: Int) extends UnitCard {
-  val unitType: UnitType = UnitType.Ranged
-}
+  test("Weather cards have different weather types") {
+    assertEquals(frostCard.weatherType != fogCard.weatherType, true)
+    assertEquals(fogCard.weatherType != rainCard.weatherType, true)
+    assertEquals(rainCard.weatherType != clearCard.weatherType, true)
+  }
 
-class TestSiegeCard(val name: String, val strength: Int) extends UnitCard {
-  val unitType: UnitType = UnitType.Siege
-}
+  test("Cards with same name can be created") {
+    val duplicate1 = new MeleeUnitCard("Duplicate", 5)
+    val duplicate2 = new MeleeUnitCard("Duplicate", 5)
+    assertEquals(duplicate1.name, duplicate2.name)
+    assertEquals(duplicate1.strength, duplicate2.strength)
+  }
 
-class TestWeatherCard(val name: String, val weatherType: String) extends WeatherCard
+  test("Weather cards can have same name but different types") {
+    val frost2 = new FrostWeatherCard("Weather Effect")
+    val fog2 = new FogWeatherCard("Weather Effect")
+    assertEquals(frost2.name, fog2.name)
+    assertEquals(frost2.weatherType != fog2.weatherType, true)
+  }
+}
